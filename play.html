@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Now</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="play.css">
+</head>
+<body>
+    <div class="container">
+        <div id="play" class="justify-center flex-column">
+            <div id="hod">
+                <div id="hod-item">
+                    <p class="hod-prefix">
+                        Question
+                    </p>
+                    <h1 class="hod-main-text" id="questionCounter">
+                        
+                    </h1>
+                </div>
+            </div>
+
+            <div id="hod">
+                <div id="hod-item">
+                    <p class="hod-prefix">
+                        Score
+                    </p>
+                    <h1 class="hod-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+
+            <h2 id="question">what is the answer to this question</h2>
+            <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text"data-number="1">1</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text" data-number="2">2</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text" data-number="3">3</p>
+            </div>
+        </div>
+    </div>
+    <script src="play.js"></script>
+</body>
+</html>
